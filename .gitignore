@@ -1,6 +1,9 @@
-
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/workspace.xml
-fonts/.DS_Store
-*.xml
+.DS_Store
+.idea
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+Thumbs.db
