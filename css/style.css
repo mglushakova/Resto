@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "aleoregular";
+  src: url("../fonts/aleo_regular/Aleo-Regular-webfont.eot");
+  src: url("../fonts/aleo_regular/Aleo-Regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/aleo_regular/Aleo-Regular-webfont.woff") format("woff"),
+  url("../fonts/aleo_regular/Aleo-Regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aleobold";
+  src: url("../fonts/aleo_bold/Aleo-Bold-webfont.eot");
+  src: url("../fonts/aleo_bold/Aleo-Bold-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/aleo_bold/Aleo-Bold-webfont.woff") format("woff"),
+  url("../fonts/aleo_bold/Aleo-Bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aleolight";
+  src: url("../fonts/aleo_light/Aleo-Light-webfont.eot");
+  src: url("../fonts/aleo_light/Aleo-Light-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/aleo_light/Aleo-Light-webfont.woff") format("woff"),
+  url("../fonts/aleo_light/Aleo-Light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "aleolightitalic";
+  src: url("../fonts/aleo_lightitalic/Aleo-LightItalic-webfont.eot");
+  src: url("../fonts/aleo_lightitalic/Aleo-LightItalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/aleo_lightitalic/Aleo-LightItalic-webfont.woff") format("woff"),
+  url("../fonts/aleo_lightitalic/Aleo-LightItalic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "wc_mano_negra_btaregular";
+  src: url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.eot");
+  src: url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.woff") format("woff"),
+  url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
