@@ -158,3 +158,57 @@ input[type="radio"].visually-hidden {
 .site-navigation a:active {
   color: #000000;
 }
+
+.promo {
+  padding-top: 225px;
+  padding-bottom: 185px;
+
+  text-align: center;
+  color: #ffffff;
+  
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo-slogan {
+  margin: 0;
+
+  font-family: wc_mano_negra_btaregular, Arial, sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -9px;
+}
+
+.promo-description {
+  position: relative;
+
+  max-width: 400px;
+  margin: 0 auto;
+
+  font-family: aleoregular, "Times New Roman", serif;
+  line-height: 60px;
+  letter-spacing: 0.64px;
+  text-align: center;
+}
+
+.promo-description::before,
+.promo-description::after {
+  content: "";
+
+  position: absolute;
+  top: 30px;
+
+  width: 40px;
+  height: 1px;
+
+  background-color: #ffffff;
+}
+
+.promo-description::before {
+  left: -40px;
+}
+
+.promo-description::after {
+  right: -40px;
+}
