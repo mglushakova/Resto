@@ -39,16 +39,6 @@
 
 }
 
-@font-face {
-  font-family: "wc_mano_negra_btaregular";
-  src: url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.eot");
-  src: url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.woff") format("woff"),
-  url("../fonts/wcmanonegrabta_regular/WCManoNegraBta-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -194,8 +184,8 @@ input[type="radio"].visually-hidden {
 }
 
 .promo {
-  padding-top: 225px;
-  padding-bottom: 185px;
+  padding-top: 210px;
+  padding-bottom: 195px;
 
   text-align: center;
   color: #ffffff;
@@ -221,7 +211,7 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
 
   font-family: aleoregular, "Times New Roman", serif;
-  line-height: 60px;
+  line-height: 44px;
   letter-spacing: 0.64px;
   text-align: center;
 }
@@ -231,7 +221,7 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 30px;
+  top: 20px;
 
   width: 40px;
   height: 1px;
