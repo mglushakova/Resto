@@ -654,6 +654,15 @@ input[type="radio"].visually-hidden {
   letter-spacing: 0.7px;
 }
 
+.footer-logo[href]:hover,
+.footer-logo[href]:focus {
+  opacity: 0.6;
+}
+
+.footer-logo[href]:active {
+  opacity: 0.4;
+}
+
 .footer-copyright img {
   display: block;
   margin-bottom: 20px;
