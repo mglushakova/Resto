@@ -250,6 +250,8 @@ input[type="radio"].visually-hidden {
 .menu {
   position: relative;
 
+  margin-bottom: 180px;
+
   border-top: 4px solid #f34949;
 }
 
@@ -400,5 +402,135 @@ input[type="radio"].visually-hidden {
 
 .menu-more:active::after {
   background-image: url("../img/arrow-down-active.svg");
+}
+
+.featured {
+  position: relative;
+
+  margin-bottom: 200px;
+}
+
+.featured-controls {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+
+  min-width: 70px;
+  height: 9px;
+}
+
+.featured-controls i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 9px;
+  height: 9px;
+  margin-right: 7px;
+  
+  border-radius: 50%;
+  background-color: #dedede;
+
+  cursor: pointer;
+}
+
+.featured-controls i:last-child {
+  margin-right: 0;
+}
+
+.featured-controls i.active {
+  background-color: #9b9b9b;
+}
+
+.featured-title {
+  position: relative;
+
+  margin: 0;
+  margin-bottom: 55px;
+
+  font-family: aleobold, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3b3b3b;
+}
+
+.featured-title::after {
+  content: "";
+
+  position: absolute;
+  top: 29px;
+  left: 215px;
+
+  width: 200px;
+  height: 1px;
+
+  background-color: #e5e3e3;
+}
+
+.featured-list {
+  display: flex;
+  width: 1100px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  list-style: none;
+}
+
+.featured-item {
+  margin-right: 60px;
+}
+
+.featured-item:last-child {
+  margin-right: 0;
+}
+
+.featured-item-image {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.featured-item-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.featured-item-name {
+  margin: 0;
+
+  font-family: aleolight, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+}
+
+.featured-item-price {
+  font-family: aleolight, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+}
+
+.rating-three {
+  background-image: url("../img/rating-three.svg");
+}
+
+.rating-four {
+  background-image: url("../img/rating-four.svg");
+}
+
+.rating-five {
+  background-image: url("../img/rating-five.svg");
+}
+
+.rating-three,
+.rating-four,
+.rating-five {
+  width: 80px;
+  height: 10px;
+
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
