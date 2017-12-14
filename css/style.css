@@ -403,7 +403,7 @@ input[type="radio"].visually-hidden {
 .featured-controls {
   position: absolute;
   top: 15px;
-  right: 18px;
+  right: -20px;
 
   min-width: 70px;
   height: 9px;
@@ -457,12 +457,15 @@ input[type="radio"].visually-hidden {
   background-color: #e5e3e3;
 }
 
+.featured-slider {
+  width: 1100px;
+  overflow-x: hidden;
+}
+
 .featured-list {
   display: flex;
-  width: 1100px;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 
   list-style: none;
 }
